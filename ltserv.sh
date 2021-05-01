@@ -82,7 +82,7 @@ Installation(){
 		if [ ! -x /bin/curl ]; then
 			apt-get install curl -y
 		fi
-		if [ ! -x /bin/nmp ]; then
+		if [ ! -x /bin/npm ]; then
 			apt-get install nodejs -y
 		fi
 	fi
